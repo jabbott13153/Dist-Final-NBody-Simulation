@@ -7,16 +7,16 @@ An NBody gravitational simulation utilizing c++
 ## Design Issues
   main.cu does not work due to the dynamic creation of Body objects in main(). This design does not work with CUDA kernals due to memory issues. 
 ## Tools
-  -Visual Studio Code: run from command line using command g++ main.cpp -o nbody.exe body.cpp
+  - Visual Studio Code: run from command line using command g++ main.cpp -o nbody.exe body.cpp
 
 ## Libraries
-  -random; used for creating random coordinates for the creation of Body objects
-  -iostream; used for printing out Bodies' position within the coordinate grid
-  -cmath; used for getting aboslute values, used in calculations of 
+  - random; used for creating random coordinates for the creation of Body objects
+  - iostream; used for printing out Bodies' position within the coordinate grid
+  - cmath; used for getting aboslute values, used in calculations of 
 
 
 ## External References
 
-  -http://www.cs.ucy.ac.cy/~ppapap01/nbody/Presentation.pdf
-  -http://zonalandeducation.com/mstm/physics/mechanics/forces/newton/mightyFEqMA/mightyFEqMA.html
+  - http://www.cs.ucy.ac.cy/~ppapap01/nbody/Presentation.pdf
+  - http://zonalandeducation.com/mstm/physics/mechanics/forces/newton/mightyFEqMA/mightyFEqMA.html
 
