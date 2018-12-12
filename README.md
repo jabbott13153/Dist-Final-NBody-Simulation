@@ -31,7 +31,8 @@ This program simulates the physics of N stars upon eachother, with the only forc
     - This website was used to retrieve the formulas for `update_pos` and `update_vel` so that the developer could implement them.
   - http://www.cs.hut.fi/~ctl/NBody.pdf
     - Sections one and two within this paper were used to create fail_body.cpp, the developer's first attempt to implement methods that would correctly simulate the physics required by this program. In addition to this, the developer used this paper as their first resource in attempting to understand the problem at hand, as well as other possible implementation methods. This paper was also used as a resource in understanind the math that the simulation required.
-  - Various Instructors, including Professor Griffith, Professor Rempe, Professor Kamesh, and other students including Mr. Battista and Ms. La Fleur.
+  - Various Instructors, including Professor Griffith, Professor Rempe, Professor Kamesh, and Professor Jones.
+  - Other students including Mr. Battista and Ms. La Fleur for troubleshooting mathematics involved.
   - Google: the developer referred to this resource often when troubleshooting and attempting to find formulas to recreate the physics needed by the program.
 
 # Front End/ Graphics
