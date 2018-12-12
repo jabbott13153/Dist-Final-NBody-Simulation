@@ -35,13 +35,22 @@ This program simulates the physics of N stars upon eachother, with the only forc
   - Other students including Mr. Battista and Ms. La Fleur for troubleshooting mathematics involved.
   - Google: the developer referred to this resource often when troubleshooting and attempting to find formulas to recreate the physics needed by the program.
 
+https://github.com/jabbott13153/Dist-Final-NBody-Simulation
+
 # Front End/ Graphics
 ## Design Overview
-  
-## Design Issues
- 
-## Tools
- 
-## Libraries
+This part of the program is designed to graphically represent all the calculations done from the cpp in a 2D plane. It will refresh the image when prompted to create an animation.
+  -Graphics.h holds all the code to do the animating. It needs to be initialized with the number of particles, two vectors to hold x and y floats, and the argc and argv from main() respectively and will bring up a window. The update_coords function will take in two new vectors for x and y so that the drawing function can update the window according to what it recieves out of these vectors. The redraw_call actually performs the update to the window and requires the argc and argv from main again to work. There are several freeglut functions and variables to control the grid size of the window, particle color, and refresh rate within the Graphics.h file.
 
+## Design Issues
+  - Not tested on large data sets for speed or efficiency.
+
+## Tools
+  - Visual Studio 2017 configured for freeglut. 
+
+## Libraries
+  - GL/gl.h; Basic graphics functionality.
+  - GL/freeglut.h; Controls OpenGL for display.
+  - vector.h; used to hold x and y data sets to graphically represent.
+  - chrono.h; sets refresh rate on pseudo-animation using Sleep() function.
 ## External References
