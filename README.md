@@ -26,9 +26,13 @@ This program simulates the physics of N stars upon eachother, with the only forc
 ## External References
 
   - http://www.cs.ucy.ac.cy/~ppapap01/nbody/Presentation.pdf
+    - Slides number 10-11 were used to define the attributes of body.h and the formula for `newton_law_universal_gravitation`. In addition to this, it was also used by the developer to better understand the problem and solution posed by N-body simulations.
   - http://zonalandeducation.com/mstm/physics/mechanics/forces/newton/mightyFEqMA/mightyFEqMA.html
+    - This website was used to retrieve the formulas for `update_pos` and `update_vel` so that the developer could implement them.
   - http://www.cs.hut.fi/~ctl/NBody.pdf
-    - Sections one and two within this paper were used to 
+    - Sections one and two within this paper were used to create fail_body.cpp, the developer's first attempt to implement methods that would correctly simulate the physics required by this program. In addition to this, the developer used this paper as their first resource in attempting to understand the problem at hand, as well as other possible implementation methods. This paper was also used as a resource in understanind the math that the simulation required.
+  - Various Instructors, including Professor Griffith, Professor Rempe, Professor Kamesh, and other students including Mr. Battista and Ms. La Fleur.
+  - Google: the developer referred to this resource often when troubleshooting and attempting to find formulas to recreate the physics needed by the program.
 
 # Front End/ Graphics
 ## Design Overview
